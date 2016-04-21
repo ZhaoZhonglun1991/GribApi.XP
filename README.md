@@ -22,5 +22,5 @@ You can build directly with Visual Studio using `./build/Grib.Api.Master.sln`.
 
 To build x86 and x64 libs together, you can run `build/build_gribapi.cmd [re|build] [vs tools version] [Debug|Release] [opt: package version]`, e.g.
 ```shell
-C:\> build/build_gribapi.cmd rebuild 12 Debug
+C:\> build/win32/build_gribapi.cmd rebuild 12 Debug
 ```
